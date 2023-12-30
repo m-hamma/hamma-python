@@ -4,7 +4,7 @@ Created on 29 déc. 2023
 @author: courant
 '''
 
-class MyClass(object):
+class Tortue:
     '''
     classdocs
     '''
@@ -15,3 +15,5 @@ class MyClass(object):
         Constructor
         '''
         
+    def fonc(self):
+        return 'hello world from tortue'

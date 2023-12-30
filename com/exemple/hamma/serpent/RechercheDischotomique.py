@@ -1,3 +1,5 @@
+from com.exemple.hamma.serpent import Tortue
+from com.exemple.hamma.Exemple import MyClass
 def recherche_dichotomique(x, tableau):
     debut = 0
     fin = len(tableau) - 1
@@ -34,3 +36,6 @@ if result != -1:
     print("x est présent à la position ", str(result))
 else:
     print("x ne se trouve pas dans le tableau")
+    
+tortue=Tortue
+print(tortue.Tortue.fonc(10))
