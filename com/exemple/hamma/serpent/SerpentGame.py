@@ -152,6 +152,5 @@ while True:
                 pen.write("Player's_score: {} Highest_score: {}".format(player_score,
     highest_score), align="center", font=("Arial", 24, "normal"))
 
-
-turtle.mainloop()
 time.sleep(delay_time)
+turtle.mainloop()
